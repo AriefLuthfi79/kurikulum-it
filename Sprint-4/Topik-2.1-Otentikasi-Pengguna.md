@@ -1,7 +1,7 @@
 # Otentikasi Pengguna (1)
 
 ## Prasyarat
-
+- Santri telah menyelesaikan Topik PHP untuk Aplikasi Web
 ## Kompetensi
 - Mengenal variabel cookie dan session
 - Menggunakan cookie dan session untuk menyimpan informasi pengguna

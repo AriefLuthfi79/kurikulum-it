@@ -1,6 +1,7 @@
 # Topik 3-2 : Manipulasi Rekam Data
 
 ## Prasyarat
+- Santri Telah menyelesaikan Topik Relation Database Management System
 
 ## Kompetensin
 - Dapat mengelola butir data dengan perintah select,  insert, update, delete

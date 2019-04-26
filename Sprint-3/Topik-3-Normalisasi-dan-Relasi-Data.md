@@ -1,7 +1,7 @@
 # Topik 3-3 : Normalisasi dan Relasi Data
 
 ## Prasyarat
-
+- Santri Telah menyelesaikan Topik Manipulasi Rekam Data
 ## Kompentensi
 - Mengetahui bentuk relasi 1:1, 1:n, dan n:m
 - Mengetahui normalisasi 1st, 2nd, dan 3rd normal form

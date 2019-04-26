@@ -1,7 +1,7 @@
 # PHP dan MySQL
 
 ## Prasyrat
-Sudah memahami Database MySQL di Sprint 3
+- Sudah memahami Database MySQL di Sprint 3 dan Topik Otentikasi Pengguna
 
 ## Kompetensi
 - Dapat menghubungkan basisdata MySQL dengan PHP

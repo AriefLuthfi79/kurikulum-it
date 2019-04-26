@@ -1,8 +1,11 @@
 # Topik 2-3: Fungsi tanpa nama (_closure_)
 
 ## Prasyarat
-
+- Santri telah menyelesaikan topik Fungsi
 ## Kompetensi
+- Dapat mendeklarasikan fungsi anonim
+- Menerapkan fungsi anonim dalam menyelesaikan masalah perograman
+- Evaluasi pencapaian belajar dan sprint retrospective
 
 ## Materi
 Fungsi-fungsi tanpa nama (Inggris _anonymous functions_) disebut juga _lamba function_ atau disebut juga dengan _closure_, memungkinkan mendeklarasikan fungsi tanpa menentukan namanya. Fungsi jenis ini biasanya ditugaskan ke dalam sebuah variabel dan jamak digunakan sebagai paramater _callback_ pada pemanggilan fungsi lainnya.

@@ -1,6 +1,7 @@
 # Topik 2-2: Constructor dan Static Member
 
 ## Prasyarat
+- Santri telah meneyelesaikan Topik Pengenalan OOP dan Class
 
 ## Kompetensi
 - Mendeklarasikan constructor method pada class
@@ -59,6 +60,6 @@ echo hewan::$kambing(); //menggunakan varibale static
 ```
 
 ## Latihan
-1. Buatlah construct function yang mengembalikan nilai string `Selamat Data ` dan mempunyai parameter nama, ketika object di buat akan menampilkan `Selamat Datang (Nama Kalian)`
+1. Buatlah construct function yang mengembalikan nilai string `Selamat Datang ` dan mempunyai parameter nama, ketika object di buat akan menampilkan `Selamat Datang (Nama Kalian)`
 
 2. Buatlah Class yang mempunyai sebuah function static rumus persegi panjang dengan 2 parameter $panjang dan $tinggi. Lalu panggiil function static di luar class dengan 2 parameternya.

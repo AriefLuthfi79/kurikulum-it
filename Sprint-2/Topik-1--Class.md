@@ -1,8 +1,15 @@
 # Topik 1: Class
 
 ## Prasyarat
+- Telah Menyelesaikan seluruh Sprint 1 beserta Latihan dan Evaluasi
 
 ## Kompetensi
+- Mengenal class dan anatomi penyusun class
+- Dapat mendeklarikan class
+- Mengenal 3 pilar dasar OOP (pembungkusan, pewarisan, dan banyakrupa)
+- Menerapkan ragam pembatasan pada class member
+- Mendeklarasikan class anak dengan memperluas class induk
+- Merancang class untuk menyelesaikan masalah pemrograman
 
 ## Materi
 

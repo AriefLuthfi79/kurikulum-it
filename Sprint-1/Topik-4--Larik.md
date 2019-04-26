@@ -1,8 +1,12 @@
 # Topik 1-4: Larik
 
 ## Prasyarat
-
+- Telah menyelsaikan dan memahami Sprint 1 Topik 1 - 3 beserta latihan yang ada.
 ## Kompetensi
+- Mengenal tipe data array
+- Mengetahui fungsi-fungsi bawaan untuk manipulasi array
+- Mengenal array multi dimensi
+- Menerapkan tipe data array dan fungsi-fungsi manipulasi array untuk menyelesaikan masalah pemrograman
 
 ## Materi
 

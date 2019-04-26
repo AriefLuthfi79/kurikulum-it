@@ -1,6 +1,7 @@
 # Otentikasi user (2)
 
 ## Prasyarat
+- Santri telah menyelesaikan Topik Otentikasi User Cookie
 
 ## Kompetensi
 - Mengenal variabel cookie dan session

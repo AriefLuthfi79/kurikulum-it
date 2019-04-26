@@ -1,8 +1,13 @@
 # Topik 2-3: Penanganan Galat
 
 ## Prasyarat
-
+- Santri Telah menyelesaikan Topik Constructor dan Static Member
 ## Kompetensi
+- Mengenal exception
+- Mengetahui cara menangani galat dengan blok try catch
+- Mendefinisikan exception ubah suai
+- Menerapkan penanganan exception dengan pemilahan
+- Mengunakan statement finaly
 
 ## Materi
 

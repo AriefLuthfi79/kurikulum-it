@@ -1,7 +1,7 @@
 # PHP untuk Aplikasi Web
 
 ## Prasyarat
-
+- Santri telah menyelesaikan Sprint 3
 ## Kompetensi
 - Dapat menjalankan program PHP dalam web server
 - Mengenal user input dengan verb GET dan POST
