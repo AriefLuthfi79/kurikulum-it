@@ -119,3 +119,8 @@ if(count($_COOKIE) > 0) {
 </body>
 </html>
 ```
+
+### Latihan
+1. Buatlah Login Menggunakan cookie
+2. Jika sudah login, tidak bisa ke halaman login tapi resirect ke halaman lain
+3. Buat Tombol Logout

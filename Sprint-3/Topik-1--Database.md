@@ -45,6 +45,27 @@ Field dalam tabel Pelanggan terdiri dari PelangganID, Nama Pelanggan, Nama Konta
 
 Entitas, juga disebut baris, adalah setiap entri individu yang ada dalam tabel. Misalnya, ada 91 entitas di tabel pelanggan di atas.
 
+### Tipe data di SQL
+
+https://www.w3schools.com/sql/sql_datatypes.asp 
+
+### Auto Increment
+
+Auto Increment memungkinkan angka unik yang akan dihasilkan secara otomatis ketika entitas baru dimasukkan ke dalam tabel.
+
+Contoh Penggunaan
+
+```sql
+CREATE TABLE santri (
+    id int NOT NULL AUTO_INCREMENT,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    PRIMARY KEY (id)
+);
+```
+
+
 ### Database
 ```bash
 $ mysql -u root -p
@@ -57,6 +78,7 @@ CREATE DATABASE `app_pondok`;
 
 -- Menghapus basisdata app_pondok
 DROP DATABASE `app_pondok`;
+
 ```
 
 Perintah membuat tabel baru bernama `santri` di dalam basisdata `app_pondok` dengan kolom `id`, `name`, dan `birth_date`.
@@ -69,14 +91,21 @@ CREATE TABLE `santri` (
   `birth_date` DATE,
   PRIMARY KEY (`id`)
 ) ENGINE=INNODB;
-```
-## Meta
-- Kata kunci:
-  1. 
-  2. 
 
-- Tautan:
-  1. [Example Site](http://site.example)
+-- Rename Table
+RENAME TABLE tb1 TO tb2;
+
+-- DROP Table 
+DROP TABLE table_name;
+```
+
+```sql
+
+```
+
 
 ## Latihan
-1. 
+1. Buat database baru Bernama pondokit
+2. Buat Table baru bernama santri di Database pondokit
+3. Tambahkan field pada table di atas id, name, age, birth_place, birth_date, hobby. id harus auto increment, dan tipe data yang lain harus sesuai dengan kebutuhan.
+4. Update Table menjadi siswa.

@@ -138,3 +138,7 @@ session_destroy();
 </html>
 ```
 
+### Latihan
+1. Buatlah Login Menggunakan Session
+2. Jika sudah login, tidak bisa ke halaman login tapi resirect ke halaman lain
+3. Buat Tombol Logout

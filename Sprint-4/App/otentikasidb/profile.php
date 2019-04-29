@@ -1,6 +1,6 @@
 <?php
 session_start();
-if( isset($_SESSION['name']) ){
+if( isset($_SESSION['status']) ){
     echo '<h1>Profile</h1>';
 
     echo 'Selamat datang ' . $_SESSION['name'];

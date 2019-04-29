@@ -35,3 +35,9 @@ $data = $_POST['alamat'];
 $data = $_GET['nama'];
 $data = $_GET['alamat'];
 ```
+
+### Latihan
+1. Buatlah form dengan method POST dan GET
+2. Form Method Post Berisi nama barang, harga.
+3. Fromr Method GET Berisi nama kurir, nama pengirim, asal barang, tujuan barang.
+4. Tammpilkan semua data yang ada setelah data di kirim.
