@@ -7,14 +7,23 @@
     <title>User Session Login</title>
 </head>
 <body>
-    <a href="blog.php"><h2><i>Baca Artikel</i></h2></a>
-    <h1>User Session Login</h1>
-    <form action="login.php" method="post">
-        <label for="">Nama</label>
-        <input type="text" name="name">
-        <label for="">Password</label>
-        <input type="password" name="pass">
-        <input type="submit" name="submit" value="Login">
-    </form>
+    <?php 
+    require_once('Blog.php');
+    if(isset($_SESSION['status'])){
+        ?>
+        <h3> <a href="Profile.php">Profile</a> </h3> 
+        <?php
+    }else{
+        ?>
+        <h3> <a href="user_login.php">Login</a> </h3> 
+        <?php
+    }
+    ?>
+    <hr>
+    <?php 
+    $blog = new Blog();
+    $blog->blog_index();
+    ?>
+                
 </body>
 </html>

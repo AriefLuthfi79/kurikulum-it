@@ -1,4 +1,4 @@
-# PHP dan MySQL
+# Otentikasi Database
 
 ## Prasyrat
 - Sudah memahami Database MySQL di Sprint 3 dan Topik Otentikasi Pengguna
@@ -72,7 +72,7 @@ if (isset($_POST['submit'])) { //Jika submit maka lanjut
         $name = $_POST['name']; //tampung nilai name pada variable name
         $pass = $_POST['pass']; //tampung nilai pass pada variable pass
         // mysqli_connect() function opens a new connection to the MySQL server. 
-        $con = mysqli_connect('localhost', 'root', 'root', 'Kurikulum_otentikasi');//buat konek ke database
+        $con = mysqli_connect('localhost', 'root', 'root', 'app_pondok');//buat konek ke database
         // SQL query to fetch information of registerd users and finds user match.
         $login = mysqli_query($con,"SELECT name, password from login where name='$name' AND password='$pass' "); ///mencari user yang cocok di database
         $cek = mysqli_num_rows($login); //menghitung data yang cocok di database
