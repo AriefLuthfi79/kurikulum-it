@@ -141,4 +141,62 @@ class Router
 
 		return $route;
 	}
+
+	private function extractParams(string $route, string $path): array
+	{
+		$params = [];
+
+		$pathParts = explode('/', $path);
+		$routeParts = explode('/', $route);
+
+		foreach ($routeParts as $key => $routePart) {
+			if (strpos($routePart, ':') === 0) {
+				$name = substr($routePart, 1);
+				$params[$name] = $pathParts[$key+1];
+			}
+		}
+
+		return $params;
+	}
+
+	private function executeController(string $route, string $path, array $info, Request $request): string
+	{
+		$controllerName = '\Bookstore\Controllers\\' . info['controller'] . 'Controller';
+		$controller = new $controllerName($request);
+
+		if (isset(info['login']) && info['login']) {
+			if ($request->getCookies()->has('user')) {
+				$costumerId = $request->getCookies()->get('user');
+				$controller->setCostumerId($costumerId);
+			} else {
+				$errorController = new CostumerController($request);
+				return $errorController->login();
+			}
+		}
+
+		$params = $this->extractParams($route, $path);
+		return call_user_func_array(
+			[$controller, $info['method']], $params
+		);
+	}
 }
+```
+
+### Breakdown code
+
+Perhatikan `class` diatas merupakan bagian dari core aplikasi kita dimana nantinya `class` ini bekerja sebagai controller mana yang akan diekseksi sesuai dengan path yang di request. Constructor pada `class` diatas akan meread route dari file json yang kita buat, serta jika kita method `extractParams()` akan mengextract parameter dari path, lihat contoh berikut ini:
+
+```
+Jika client mengakses path /books/12/borrow dan tentunya route nya adalah /books/:id/borrow maka path tadi akan diseleksi dalam mendapatkan id nya, dan yang terjadi adalah method tsb akan me-return array ['id' => 12]
+```
+
+Dan method `executeController()` sendiri nantinya akan mengeksekusi controller mana yang akan dipanggil.
+
+## Meta
+
+Kata kunci:
+
+- json
+- regular expression
+
+## Latihan
