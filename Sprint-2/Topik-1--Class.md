@@ -5,7 +5,7 @@
 
 ## Kompetensi
 - Mengenal class dan anatomi penyusun class
-- Dapat mendeklarikan class
+- Dapat mendeklarasikan class
 - Mengenal 3 pilar dasar OOP (pembungkusan, pewarisan, dan banyakrupa)
 - Menerapkan ragam pembatasan pada class member
 - Mendeklarasikan class anak dengan memperluas class induk
@@ -193,14 +193,6 @@ apa yang ada pada induk;
 - menulis metode _static_ baru pada anak dengan nama yang sama pada induk, ini akan
 menyembunyikan yang ada pada induk;
 - deklarasi metode baru pada anak yang tidak terdapat pada induk.
-
-## Meta
-- Kata kunci:
-  1. 
-  2. 
-
-- Tautan:
-  1. [Example Site](http://site.example)
 
 ## Latihan
 1. Rancanglah sistem yang berisi beberapa _class_ yang menangani kasus perpustakaan dengan rincian sebagai berikut:
