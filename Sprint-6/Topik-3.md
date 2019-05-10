@@ -200,3 +200,5 @@ Kata kunci:
 - regular expression
 
 ## Latihan
+
+1. Buatlah suatu kasus dimana tentang materi yang berkaitan, dan buatlah route sesuai dengan kasus tsb *(contoh: perpustakaan)*

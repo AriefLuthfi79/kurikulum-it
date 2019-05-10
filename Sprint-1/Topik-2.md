@@ -130,7 +130,6 @@ Panjang persegi: 5
 Lebar persegi: 8
 
 Luas persegi tersebut adalah: <hasil perhitungan>
-```
 
 5. Sebuah lingkaran ditentukan `diameter := 9`. Buatlah program untuk menghitung luas dan keliling lingkaran, simpan dengan nama latihan-5.php.
 

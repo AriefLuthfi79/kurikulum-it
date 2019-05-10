@@ -184,4 +184,4 @@ Tautan terkait:
 
 ## Latihan
 
-1. Buatlah program 
+1. Buatlah contoh `class Request` yang berbeda dari yang diatas
