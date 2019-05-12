@@ -168,4 +168,4 @@ Tautan:
 - [PHP autoload Best  Practices](http://ditio.net/2008/11/13/php-autoload-best-practices/)
 
 ## Latihan
-...
+1. Buatlah suatu class Bangun datar yang memanfaatkan autoloader manual

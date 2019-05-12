@@ -125,3 +125,4 @@ Tautan terkait:
 - [PSR](https://www.php-fig.org/)
 
 ## Latihan
+1. Buatlah suatu program sederhana yaitu tentang class Bangun Datar yang memanfaatkan autoloader PSR-4

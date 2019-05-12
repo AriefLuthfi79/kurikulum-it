@@ -46,6 +46,3 @@ Kata kunci:
 - composer
 - library third party
 
-## Latihan
-...
-

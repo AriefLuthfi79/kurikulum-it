@@ -1,0 +1,1 @@
+1. Buatlah REST API dalam sistem Point Of sales, (syarat: menggunakan Framework Lumen atau laravel)

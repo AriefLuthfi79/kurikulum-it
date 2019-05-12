@@ -76,3 +76,6 @@ Kata kunci:
 Tautan:
 - [PHP](http://php.net)
 - [Github](https://github.com/briannesbitt/Carbon)
+
+## Latihan
+1. Buatlah suatu program sederhana yang menggunakan package manager

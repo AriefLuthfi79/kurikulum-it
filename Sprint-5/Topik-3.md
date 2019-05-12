@@ -114,4 +114,4 @@ Tautan terkait:
 - [PSR](https://www.php-fig.org/psr/)
 
 ## Latihan
-...
+1. Buatlah suatu class Bangun datar dan Bangun Dimensi yang memanfaatkan autoloader manual dan penggunaan namespace secara standar
