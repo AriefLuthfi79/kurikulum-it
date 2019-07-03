@@ -1,7 +1,7 @@
 # Topik 2-2: Fungsi
 
 ## Prasyarat
-
+- Santri telah menyelesaikan topik Larik (Array)
 ## Kompetensi
 
 ## Materi

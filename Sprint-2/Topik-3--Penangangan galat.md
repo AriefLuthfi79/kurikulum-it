@@ -1,8 +1,13 @@
-# Topik 3-2: Penanganan Galat
+# Topik 2-3: Penanganan Galat
 
 ## Prasyarat
-
+- Santri Telah menyelesaikan Topik Constructor dan Static Member
 ## Kompetensi
+- Mengenal exception
+- Mengetahui cara menangani galat dengan blok try catch
+- Mendefinisikan exception ubah suai
+- Menerapkan penanganan exception dengan pemilahan
+- Mengunakan statement finaly
 
 ## Materi
 
@@ -48,14 +53,6 @@ try {
 
 echo $result;
 ```
-
-## Meta
-- Kata kunci:
-  1. exception handling
-  2. 
-
-- Tautan:
-  1. [Example Site](http://site.example)
 
 ## Latihan
 1. Dari soal latihan topik sebelumnya, kembangkanlah fungsi-fungsi yang telah dibuat pada Topik 2 dengan tambahan penerbitan exception untuk menangani kesalahan melewatkan parameter bernilai minus (kurang dari nol).

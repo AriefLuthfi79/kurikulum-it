@@ -31,7 +31,7 @@ PHP memiliki 8 tipe data primitif, 5 diantaranya adalah:
 Variable PHP dapat ditetapkan ulang nilainya dengan tipe data yang berlainan dan tipe data satu dapat diubah ke tipe data lainnya, ini disebut **type juggling**.
 
 ### Operator Aritmatika
-Arithmetic operators are very intuitive, as you already know. Addition, subtraction, multiplication, and division (`+`, `-`, `*`, and `/`) do as their names say. Modulus (`%`) gives the remainder of the division of two operands. Exponentiation (`**`) raises the first operand to the power of the second. Finally, negation (`-`) negates the operand. This last one is the only arithmetic operator that takes just one operand.
+Operator Aritmatika (Arithmetic Operators) atau operator matematika adalah operator dasar yang sering kita gunakan sehari-hari. Penambahan, Pengurangan, Perkalian, dan Pembagian(`+`, `-`, `*`, dan `/`) . Modulus (`%`) Operator ini menghasilkan sisa hasil bagi dari hasil pembagian. Misalkan 10 % 3, hasilnya adalah 1. Exponensial (`**`) atau Perpangkatan digunakan untuk menghitung pangkat. Terakhir, negasi (`-`) meniadakan operan. Yang terakhir ini adalah satu-satunya operator aritmatika yang hanya membutuhkan satu operan.
 
 ### Operator Penetapan
 `=`, `+=`, `-=`, `*=`
@@ -52,7 +52,7 @@ Dan terdapat 1 operator khusus _spaceship_ (`<=>`), yang membandingkan kedua ope
 Hati-hati dengan _type juggling_, operator pembanding tersebut di atas akan menyamakan tipe data kedua operan sebelum membandingkannya. Untuk memeriksa tanpa perubahan tipe data, gunakan operator identik (`===`) atau tidak identik (`!==`).
 
 ### Operator Logika
-Logical operators apply a logic operation —also known as a binary operation— to its operands, returning a Boolean response. The most used ones are `!` (not), `&&` (and), and `||` (or). `&&` will return true only if both operands evaluate to true. `||` will return true if any or both of the operands are true. `!` will return the negated value of the operand, that is, `true` if the operand is `false` or `false` if the operand is `true`. 
+Operator Logika adalah operator yang di gunakan untuk membandingkan 2 kondisi, benar (`true`) atau salah (`false`). Operator Logika yang sering digunakan adalah `!` (tidak), `&&` (dan), dan `||` (atau). `&&` akan mengembalikan nilai benar (`true`) jika 2 kondisi operan bernilai benar `true`. `||` akan mengembalikan nilai `true` jika salah satu dari operan `true`. `!` akan mengembalikan nilai `true` jika operan `false`, dan akan mengembalikan nilai `false` jika operan bernilai `true`. 
 
 ### Pengutamaan Operator
 | Operator                                 | Type           |

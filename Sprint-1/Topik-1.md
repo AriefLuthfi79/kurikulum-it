@@ -83,13 +83,13 @@ Suatu saat ku kan meninggalkanmu.
 
 3. Dengan menggunakan shell, buatlah direktori 'belajar/topik-0' di dalam direktori `home`. Kemudian _current directory_ ke direktori tersebut.
 
-3. Buatlah berkas PHP yang berisi baris kode di bawah ini dan simpan dengan nama latihan-3.php. Jalankan berkas tesebut dalam CLI dengan perintah `php latihan-3.php`.
+4. Buatlah berkas PHP yang berisi baris kode di bawah ini dan simpan dengan nama latihan-3.php. Jalankan berkas tesebut dalam CLI dengan perintah `php latihan-3.php`.
 ```php
 <?php
 
 echo 'Halo dunia!';
 ```
-4. Buatlah berkas PHP yang berisi baris kode di bawah ini, simpan dengan nama latihan-4.php,dan jalankan.
+5. Buatlah berkas PHP yang berisi baris kode di bawah ini, simpan dengan nama latihan-4.php,dan jalankan.
 ```php
 Bismillah.
 
@@ -99,4 +99,4 @@ echo 'Halo dunia!';
 
 Suatu saat ku kan meninggalkanmu.
 ```
-5. Ekplorasi kata kunci pencetakan `printf`.
+6. Ekplorasi kata kunci pencetakan `printf`.
