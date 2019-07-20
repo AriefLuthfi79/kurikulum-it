@@ -11,7 +11,7 @@
  +           +           +
 ```
 
-2. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-2.php.
+2. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-2.php. (clue: ganjil genap)
 ```
  +     +     +     +     +
     +     +     +     +   
@@ -38,7 +38,7 @@
  +                       +
 ```
 
-4. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-4.php.
+4. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-4.php. (clue: ganjil genap)
 ```
  +  +  +  +  +  +  +  +  1
  +  +  +  +  +  +  +  1  0
