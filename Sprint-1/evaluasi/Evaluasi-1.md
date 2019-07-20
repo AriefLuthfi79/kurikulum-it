@@ -51,7 +51,7 @@
  1  0  1  0  1  0  1  0  1
 ```
 
-5. Buatlah program dengan variabel `n := 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-5.php.
+5. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-5.php.
 ```
  +  +  +  +  +  +  +  +  +
  +  +  0  0  0  0  0  0  +
