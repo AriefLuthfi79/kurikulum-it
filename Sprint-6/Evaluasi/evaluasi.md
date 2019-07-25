@@ -1,1 +1,1 @@
-1. Buatlah suatu sistem dimana sistem tersebut menggunakan konsep MVC (example: sistem perpustakaan) 
+1. Buatlah suatu crud sistem dimana sistem tersebut menggunakan konsep MVC 
