@@ -1,1 +1,1 @@
-1. Buatlah suatu sistem Point Of Sales menggunakan Laravel
+1. Buatlah suatu sistem CRUD menggunakan Laravel
