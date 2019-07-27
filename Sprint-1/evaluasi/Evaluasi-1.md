@@ -14,12 +14,13 @@ tanpa pemisah dengan output berupa bilangan integer
 ```
 55566914566956
 ```
+---
 
 2. Ditentukan data larik santri seperti di bawah ini. Dari data satri tersebut buatlah
 
-a) daftar santri dengan minat 'Backend'
-b) jumlah satri berusia kurang dari 25
-c) santri paling muda.
+* daftar santri dengan minat 'Backend'
+* jumlah satri berusia kurang dari 25
+* santri paling muda.
 
 **Input**
 ```bash
