@@ -58,11 +58,11 @@ akan dipisah dan diurutkan berdasarkan angka di bilangan-bilangan itu
 sendiri. Setelah itu, bilangan hasil sort akan digabung kembali dengan
 tanpa pemisah dengan output berupa bilangan integer (clue: gunakan array_helper dan string helper).
 
-**Contoh Input
+**Contoh Input**
 ```
 5956560159466056
 ```
-**Contoh Output
+**Contoh Output**
 ```
 55566914566956
 ```
