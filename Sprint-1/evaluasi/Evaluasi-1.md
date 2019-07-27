@@ -15,8 +15,9 @@ tanpa pemisah dengan output berupa bilangan integer.
 <?php
 
 function selectionValue(string $collectionValue): int {
-
+  // Code kalian
 }
+```
 
 **`Contoh Input`**
 ```
