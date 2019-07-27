@@ -1,24 +1,24 @@
-1. Diberikan sebuah variabel yang berisikan bilangan integer dengan
+**1. Diberikan sebuah variabel yang berisikan bilangan integer dengan
 ketentuan angka 0(nol) dalam variabel tersebut merupakan pemisah
 antara satu bilangan dengan bilangan lainnya. Bilangan-bilangan tersebut
 akan dipisah dan diurutkan berdasarkan angka di bilangan-bilangan itu
 sendiri. Setelah itu, bilangan hasil sort akan digabung kembali dengan
 tanpa pemisah dengan output berupa bilangan integer
-(clue: gunakan array_helper dan string helper yang bisa membuat string jadi array).
+(clue: gunakan array_helper dan string helper yang bisa membuat string jadi array).**
 
-**Contoh Input**
+**`Contoh Input`**
 ```
 5956560159466056
 ```
-**Contoh Output**
+**`Contoh Output`**
 ```
 55566914566956
 ```
 ---
 
-2. Ditentukan data larik santri seperti di bawah ini. Dari data satri tersebut buatlah
+**2. Ditentukan data larik santri seperti di bawah ini. Dari data satri tersebut buatlah**
 
-**Contoh Larik(Array) pada variabel**
+**`Contoh Larik(Array) pada variabel`**
 ```php
 <?php
 
@@ -36,7 +36,7 @@ $students = [
 * jumlah satri berusia kurang dari 25
 * santri paling muda.
 
-**Input**
+**`Input`**
 ```bash
 Selamat Datang Di Program Input Data
 
@@ -57,7 +57,7 @@ Divisi : Graphic Design
 Usia : 19
 ```
 
-**Output**
+**`Output`**
 
 ```bash
 Yang minat sebagai Backend adalah Udin
