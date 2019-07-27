@@ -3,8 +3,20 @@ ketentuan angka 0(nol) dalam variabel tersebut merupakan pemisah
 antara satu bilangan dengan bilangan lainnya. Bilangan-bilangan tersebut
 akan dipisah dan diurutkan berdasarkan angka di bilangan-bilangan itu
 sendiri. Setelah itu, bilangan hasil sort akan digabung kembali dengan
-tanpa pemisah dengan output berupa bilangan integer
+tanpa pemisah dengan output berupa bilangan integer.
 (clue: gunakan array_helper dan string helper yang bisa membuat string jadi array).**
+
+`Ketentuan :`
+* Buatlah function nya dalam menyeleksi angka dibawah ini
+
+***contoh***
+
+```php
+<?php
+
+function selectionValue(string $collectionValue): int {
+
+}
 
 **`Contoh Input`**
 ```
