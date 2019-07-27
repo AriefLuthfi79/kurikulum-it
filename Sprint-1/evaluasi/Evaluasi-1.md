@@ -7,7 +7,7 @@ tanpa pemisah dengan output berupa bilangan integer.
 (clue: gunakan array_helper dan string helper yang bisa membuat string jadi array).**
 
 `Ketentuan :`
-* Buatlah function nya dalam menyeleksi angka dibawah ini (Optional, nilai sempurna jika membuat dengan ``function`` nya)
+* Buatlah function nya dalam menyeleksi angka dibawah ini
 
 ***contoh***
 
