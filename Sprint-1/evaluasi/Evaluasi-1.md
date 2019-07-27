@@ -18,6 +18,20 @@ tanpa pemisah dengan output berupa bilangan integer
 
 2. Ditentukan data larik santri seperti di bawah ini. Dari data satri tersebut buatlah
 
+**Contoh Larik(Array) pada variabel**
+```php
+<?php
+
+$students = [
+  [
+    'name' => (Harus Dinamis)
+    'nik'  => (Harus Dinamis)
+    'jurusan' => (Harus Dinamis)
+    'divisi' => (Harus Dinamis)
+  ]
+];
+```
+
 * daftar santri dengan minat 'Backend'
 * jumlah satri berusia kurang dari 25
 * santri paling muda.
