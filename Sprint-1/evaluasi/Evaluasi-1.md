@@ -1,62 +1,10 @@
-1. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-1.php.
-```
- +           +           +
-    +        +        +   
-       +     +     +      
-          +  +  +         
- +  +  +  +  +  +  +  +  +
-          +  +  +         
-       +     +     +      
-    +        +        +   
- +           +           +
-```
-
-2. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-2.php. (clue: ganjil genap)
-```
- +     +     +     +     +
-    +     +     +     +   
- +     +     +     +     +
-    +     +     +     +   
- +     +     +     +     +
-    +     +     +     +   
- +     +     +     +     +
-    +     +     +     +   
- +     +     +     +     +
-```
-
-
-3. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-3.php.
-```
- +                       +
- +  +                 +  +
- +  +  +           +  +  +
- +  +  +  +     +  +  +  +
- +  +  +  +  +  +  +  +  +
- +  +  +  +     +  +  +  +
- +  +  +           +  +  +
- +  +                 +  +
- +                       +
-```
-
-4. Buatlah program dengan variabel `n <= 9` dengan hasil keluaran yang tersebut di bawah ini, simpan dengan nama evaluasi-4.php. (clue: ganjil genap)
-```
- +  +  +  +  +  +  +  +  1
- +  +  +  +  +  +  +  1  0
- +  +  +  +  +  +  1  0  1
- +  +  +  +  +  1  0  1  0
- +  +  +  +  1  0  1  0  1
- +  +  +  1  0  1  0  1  0
- +  +  1  0  1  0  1  0  1
- +  1  0  1  0  1  0  1  0
- 1  0  1  0  1  0  1  0  1
-```
-
-5. Diberikan sebuah variabel yang berisikan bilangan integer dengan
+1. Diberikan sebuah variabel yang berisikan bilangan integer dengan
 ketentuan angka 0(nol) dalam variabel tersebut merupakan pemisah
 antara satu bilangan dengan bilangan lainnya. Bilangan-bilangan tersebut
 akan dipisah dan diurutkan berdasarkan angka di bilangan-bilangan itu
 sendiri. Setelah itu, bilangan hasil sort akan digabung kembali dengan
-tanpa pemisah dengan output berupa bilangan integer (clue: gunakan array_helper dan string helper).
+tanpa pemisah dengan output berupa bilangan integer
+(clue: gunakan array_helper dan string helper yang bisa membuat string jadi array).
 
 **Contoh Input**
 ```
@@ -65,4 +13,39 @@ tanpa pemisah dengan output berupa bilangan integer (clue: gunakan array_helper 
 **Contoh Output**
 ```
 55566914566956
+```
+
+2. Ditentukan data larik santri seperti di bawah ini. Dari data satri tersebut buatlah
+
+a) daftar santri dengan minat 'Backend'
+b) jumlah satri berusia kurang dari 25
+c) santri paling muda.
+
+**Input**
+```bash
+Selamat Datang Di Program Input Data
+
+Data yang ingin diinputkan : 2
+
+Masukkan data 1
+Nama : Udin
+NIK : TOO1
+Jurusan : Programmer
+Divisi : Backend
+Usia : 74
+
+Masukkan data 2
+Nama : Umair
+NIK : TOO3
+Jurusan : Multimedia
+Divisi : Graphic Design
+Usia : 19
+```
+
+**Output**
+
+```bash
+Yang minat sebagai Backend adalah Udin
+Usia yang kurang dari 25 adalah Umair
+Usia Paling muda adalah Umair
 ```
