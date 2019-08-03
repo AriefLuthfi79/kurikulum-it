@@ -13,6 +13,11 @@ class Register
         'nik'  => "TOO1"
       ]
     ];
+    
+    public static function insertStudent(array $santri): void
+    {
+        // your code goes here
+    }
 }
 
 Register::insertStudent(['name' => $name, 'nik' => $nik])
