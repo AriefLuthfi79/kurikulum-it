@@ -14,3 +14,6 @@ class Register
       ]
     ];
 }
+
+Register::insertStudent()
+```
