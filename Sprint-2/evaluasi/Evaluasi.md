@@ -15,5 +15,5 @@ class Register
     ];
 }
 
-Register::insertStudent()
+Register::insertStudent(['name' => $name, 'nik' => $nik])
 ```
