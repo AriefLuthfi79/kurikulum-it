@@ -11,10 +11,10 @@
 
 ## Materi
 
-### Realis 1:1
+### Relasi 1:1
 Relasi one to one adalah relasi dimana setiap satu baris data pada tabel satu hanya berhubungan dengan satu baris data di tabel dua. Artinya masing - masing hanya memiliki satu hubungan saja. Biasanya relasi seperti ini digunakan pada relasi pengguna dan userlogin. Dimana satu pengguna hanya memiliki satu akun untuk login. dan satu akun login hanya dimiliki oleh pengguna.
 
-### Realis 1:n
+### Relasi 1:n
 Relasi one to many adalah relasi yang mana setiap baris dari tabel pertama dapat dihubungkan dengan satu baris ataupun lebih dari tabel kedua. Artinya satu baris dari tabel pertama dapat mencangkup banyak data pada tabel kedua. Disini saya contohkan seperti dosen dan mata kuliah. Kita tahu bahwa dosen bisa memiliki banyak mata kuliah yang dia ampu. Namun satu mata kuliah hanya bisa diampu oleh satu dosen saja.
 
 ### Relasi n:m
