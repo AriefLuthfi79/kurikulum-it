@@ -16,4 +16,4 @@
 
 ## Jangan mau hanya menjadi biasa-biasa saja dalam mengerjakan suatu hal, buatlah sesuatu dengan cara efisin, dan seefektif mungkin
 
-**Kerjarlah nilai sempurna**
+**Kejarlah nilai sempurna**
