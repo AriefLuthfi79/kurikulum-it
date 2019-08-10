@@ -9,4 +9,4 @@
    * Hitung rata-rata nilai para santri;
    * Carilah orang yang berpotensi yaitu dengan nilai diatas 80 dan dapatkan nama dari data tsb;
 
-2. Nilai sempurna jika solusi diatas diselesaikan dengan function atau class!
+2. Nilai sempurna jika solusi diatas diselesaikan dengan `function` atau `class`!
