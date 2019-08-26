@@ -2,6 +2,12 @@
 
 1. Buatlah Program CRUD Input data Santri
 2. Admin Bisa Login dan Logout
+3. Buatlah dengan class
+
+## Gambaran Besar Masalah
+
+Ketika client login maka direct ke halaman input data santri lalu sang client bisa input data, edit data, hapus data, dalam masalah ini ketika client sudah login maka tidak perlu mengulang login jika aplikasi sudah di close (Gunakan session)
+
 
 # Catatan :
 
